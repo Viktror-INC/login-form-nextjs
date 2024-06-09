@@ -36,18 +36,6 @@ const LoginForm = () => {
     event.preventDefault();
   };
 
-  const inputs = [
-    {
-      name: "email",
-      id: "email",
-      value: formik.values.email,
-      error: formik.errors.email,
-      type: "text",
-      endAdornment: null,
-      placeholder:"",
-    },
-  ];
-
   return (
     <StyledLoginForm
       onSubmit={(event) => {
